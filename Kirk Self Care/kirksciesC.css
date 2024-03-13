@@ -1,0 +1,195 @@
+@font-face {
+  font-family: Allura;
+  src: url(./Fonts/Cursive/Allura/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: Baskerville;
+  src: url(./Fonts/Serif/Baskerville/Baskervville-Regular.ttf);
+}
+
+@font-face {
+  font-family: Pinyon Script;
+  src: url(./Fonts/Cursive/Pinyon_Script/PinyonScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: Didot;
+  src: url(./Fonts/Serif/GFS_Didot/GFSDidot-Regular.ttf);
+}
+
+@font-face {
+  font-family: Cabin;
+  src: url(./Fonts/Sans/Cabin/static/Cabin-Regular.ttf);
+}
+
+.container {
+  display: grid;
+  height: 99vh;
+  /* gap: 3rem; */
+  grid-template-columns: 150px 150px 240px 150px;
+  grid-template-rows: 100px 100px 100px 100px;
+}
+
+.blue {
+  background-color: #1968d1;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  grid-area: 4 / 4 / 4 / 4;
+}
+
+.purple {
+  background-color: #7852a9;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  grid-area: 4 / 1 / 4 / 1;
+}
+
+.green {
+  background-color: #83a952;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  grid-area: 1 / 4 / 1 / 4;
+}
+
+.orange {
+  background-color: #d18219;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  grid-area: 1 / 1 / 1 / 1;
+}
+
+/* .neutralBO {
+  background-color: #767575;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  grid-area: 4 / 2 / 4 / 2;
+} */
+
+/* .neutralPG {
+  background-color: #7d7d7d;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  grid-area: 1 / 2 / 1 / 2;
+} */
+
+.brand {
+  display: flex;
+  font-family: baskerville;
+  font-size: 77.7px;
+  /* grid-column: span 2; */
+  /* background-color: #7852a9; */
+  grid-area: 3 / 2 / 3 / 3;
+}
+
+.kirk {
+  display: flex;
+  font-family: baskerville;
+  margin-left: 5rem;
+  font-size: 77.7px;
+  padding: 5px;
+  margin-bottom: 0px;
+  grid-area: 2 / 2 / 2 / 2;
+}
+
+.self,
+.care {
+  display: flex;
+  padding: 1rem;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.k,
+.s,
+.a,
+.r2 {
+  color: #1968d1;
+}
+
+.i,
+.r,
+.k2 {
+  color: #7852a9;
+}
+
+.e,
+.l,
+.f {
+  color: #83a952;
+}
+
+.c,
+.e2 {
+  color: #d18219;
+}
+
+h1 {
+  color: #1968d1;
+  font-family: baskerville;
+}
+
+#output {
+  color: #7852a9;
+  font-family: allura;
+  font-size: 37px;
+}
+
+.health {
+  color: #1968d1;
+  font-family: pinyon script;
+  font-size: 37px;
+}
+
+.class {
+  color: #7852a9;
+}
+
+.home h2 {
+  font-family: didot;
+  font-weight: normal;
+  color: #d18219;
+}
+
+h3 {
+  font-family: cabin;
+  font-weight: normal;
+  color: #83a952;
+}
+
+.research h2 {
+  color: #7d7d7d;
+  background-color: #7852a9;
+}
+
+.awards h2 {
+  color: #767575;
+  background-color: #1968d1;
+}
+
+.awards,
+p {
+  font-family: cabin;
+}
+
+.awards li {
+  margin-top: 7px;
+}
+
+.usawards h2 {
+  font-family: baskerville;
+}
+.usawards,
+p {
+  font-family: cabin;
+}
+
+.usawards li {
+  margin-top: 7px;
+}

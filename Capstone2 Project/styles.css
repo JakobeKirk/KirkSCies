@@ -1,0 +1,111 @@
+@font-face {
+  font-family: allura;
+  src: url(./Fonts/Cursive/Allura/Allura-Regular.ttf);
+}
+
+@font-face {
+  font-family: pinyon;
+  src: url(./Fonts/Cursive/Pinyon_Script/PinyonScript-Regular.ttf);
+}
+
+@font-face {
+  font-family: cabin;
+  src: url(./Fonts/Sans/Cabin/static/Cabin-Regular.ttf);
+}
+
+@font-face {
+  font-family: baskerville;
+  src: url(Fonts/Serif/Baskerville/Baskervville-Regular.ttf);
+}
+
+@font-face {
+  font-family: didot;
+  src: url(Fonts/Serif/GFS_Didot/GFSDidot-Regular.ttf);
+}
+
+body {
+  font-family: cabin;
+  font-size: 27px;
+  color: #1968d1 !important;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+}
+
+.display-4.fw-bold {
+  color: #7852a9;
+  font-size: 3.77em;
+}
+
+.px-4.pt-5.text-center {
+  background-color: #83a952;
+  height: 57.7vh;
+  font-family: didot;
+  font-weight: bold;
+}
+
+.img-fluid {
+  background-color: #1968d1;
+  margin-top: 37px;
+}
+
+.lead.mb-4 {
+  font-family: cabin;
+  font-size: 27px;
+  color: #1968d1;
+}
+
+.btn.btn-primary.btn-lg.px-4.me-sm-3 {
+  color: #83a952;
+  background-color: #7852a9;
+  /* color: #d18219 */
+}
+
+.btn.btn-outline-secondary.btn-lg.px-4 {
+  color: #7852a9;
+}
+
+.start {
+  display: flex;
+  /* justify-content: center; */
+  font-size: 2.5em;
+  background-color: #7852a9;
+  color: #83a952;
+  padding-top: 10px;
+}
+
+.ptitle {
+  display: flex;
+  justify-content: center;
+}
+
+.dog1 {
+  display: flex;
+  justify-content: center;
+  height: 300px;
+  margin-top: 7em;
+  margin-bottom: 3em;
+}
+
+.grid {
+  display: flex;
+  gap: 57px;
+  align-items: center;
+  justify-content: center;
+  background-color: #83a952;
+}
+
+.dog2 {
+  padding: 150px;
+}
+
+.solve {
+  width: 557px;
+}
+
+.newspaper { 
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+}
